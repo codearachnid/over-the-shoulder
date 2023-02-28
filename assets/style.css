@@ -1,0 +1,58 @@
+#tracking {
+  height: 400px;
+  width: 90%;
+  margin: 5%;
+  border: 1px solid #444;
+  display: block;
+}
+#tracking.active {
+  border: 3px solid tomato;
+}
+
+#remote-cursor {
+  position: absolute;
+  transition: all 0.9s ease;
+  width: 25px;
+  height: 25px;
+}
+
+#request_room {
+  background: transparent;
+  border: none;
+  color: transparent;
+  background-image: url("/assets/cast-64.png");
+  background-size: cover;
+  width: 64px;
+  height: 64px;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+#room {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background: #eee;
+  padding: 15px;
+  margin: 20px auto;
+  width: 200px;
+}
+#room button {
+  width: 100%;
+  background-color: tomato;
+  color: #fff;
+  border: transparent;
+  border-radius: 10px;
+  font-size: 18px;
+}
+#room input {
+  background: transparent;
+  border: none;
+}
+
+/*# sourceMappingURL=style.css.map */
